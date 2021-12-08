@@ -26,6 +26,9 @@ Tools : JavaFX, MySQL, Scene Builder.
 ![Capture d’écran 2021-12-08 à 03 01 46](https://user-images.githubusercontent.com/66096541/145135520-925d82aa-1d24-4504-8c2c-7aa911df24a5.png)
 ![Capture d’écran 2021-12-08 à 03 02 01](https://user-images.githubusercontent.com/66096541/145135526-9b23ace9-2b4e-4afb-b60d-55828c9da2b7.png)
 ![Capture d’écran 2021-12-08 à 03 02 15](https://user-images.githubusercontent.com/66096541/145135533-ac4c8126-a59b-4444-b0c3-73aeab60f109.png)
+![Capture d’écran 2021-12-08 à 03 21 51](https://user-images.githubusercontent.com/66096541/145137292-c9c5fabb-9375-4e27-af47-aae1de18aaef.png)
+
+
 
 # 5. Student's panel
 
@@ -34,3 +37,5 @@ Tools : JavaFX, MySQL, Scene Builder.
 ![Capture d’écran 2021-12-08 à 03 02 51](https://user-images.githubusercontent.com/66096541/145135560-bdb0cfde-2aaf-4616-9512-a1f228559503.png)
 ![Capture d’écran 2021-12-08 à 03 03 01](https://user-images.githubusercontent.com/66096541/145135567-6af22d8c-1b3a-4fb8-877a-aa0702317eac.png)
 ![Capture d’écran 2021-12-08 à 03 03 30](https://user-images.githubusercontent.com/66096541/145135573-c13b1f81-f7cc-4aed-a879-06f76724fa17.png)
+![Capture d’écran 2021-12-08 à 03 22 16](https://user-images.githubusercontent.com/66096541/145137297-3b6e9a68-a5fe-44b7-9307-1bc5892958a1.png)
+![Capture d’écran 2021-12-08 à 03 22 25](https://user-images.githubusercontent.com/66096541/145137304-ae405124-d8f3-4b45-9f8c-095a173abce9.png)
