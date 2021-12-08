@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Interface2">
+   <children>
+      <AnchorPane prefHeight="529.0" prefWidth="877.0">
+         <children>
+            <ImageView fitHeight="592.0" fitWidth="890.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/jesus-kiteque-wn-KYaHwcis-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="567.0" layoutY="255.0" onAction="#load1" prefHeight="47.0" prefWidth="284.0" styleClass="buttone2" stylesheets="@application.css" text="Branch Head">
+               <font>
+                  <Font name="Ebrima" size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="567.0" layoutY="317.0" onAction="#load2" prefHeight="47.0" prefWidth="284.0" styleClass="buttone2" stylesheets="@application.css" text="Supervisor">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="567.0" layoutY="378.0" onAction="#loads3" prefHeight="47.0" prefWidth="284.0" styleClass="buttone2" stylesheets="@application.css" text="Student">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="38.0" layoutY="182.0" text="Choose your account type">
+               <font>
+                  <Font name="Georgia" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

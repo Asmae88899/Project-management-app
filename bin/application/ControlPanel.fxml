@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="logoutPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="877.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ContolPanel">
+   <children>
+      <AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="877.0">
+         <children>
+            <AnchorPane fx:id="pane1" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="877.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <AnchorPane layoutX="-2.0" prefHeight="600.0" prefWidth="214.0" style="-fx-background-color: #4E4E50;">
+                     <children>
+                        <Label layoutX="13.0" layoutY="40.0" text="Superviser Panel" textFill="#212121">
+                           <font>
+                              <Font name="Ebrima" size="26.0" />
+                           </font>
+                        </Label>
+                        <Line endX="75.0" layoutX="107.0" layoutY="88.0" startX="-78.0" />
+                        <Line endX="91.0" layoutX="109.0" layoutY="483.0" startX="-100.0" />
+                        <JFXButton layoutX="2.0" layoutY="171.0" onAction="#createSujet" prefHeight="40.0" prefWidth="209.0" styleClass="button2" stylesheets="@application.css" text="Subjects" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="3.0" layoutY="211.0" onAction="#viewStudents" prefHeight="40.0" prefWidth="209.0" styleClass="button2" stylesheets="@application.css" text="View Groups" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="3.0" layoutY="251.0" onAction="#viewReunions" prefHeight="40.0" prefWidth="209.0" styleClass="button2" stylesheets="@application.css" text="Meetings Settings" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="3.0" layoutY="131.0" onAction="#home" prefHeight="40.0" prefWidth="209.0" text="Home" textFill="#ffeb3b">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="3.0" layoutY="291.0" onAction="#progress" prefHeight="40.0" prefWidth="209.0" styleClass="button2" stylesheets="@application.css" text="Group Progress" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="3.0" layoutY="331.0" onAction="#message" prefHeight="40.0" prefWidth="209.0" styleClass="button2" stylesheets="@application.css" text="Message" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+                  <Pane layoutX="212.0" layoutY="-1.0" prefHeight="600.0" prefWidth="665.0">
+                     <children>
+                        <Label fx:id="label2" layoutX="338.0" layoutY="6.0" text="Label" textFill="WHITE" />
+                        <Label fx:id="label1" layoutX="249.0" layoutY="6.0" text="Label" textFill="WHITE" />
+                        <AnchorPane fx:id="mainPane" layoutY="45.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="665.0">
+                           <children>
+                              <ImageView fitHeight="556.0" fitWidth="741.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../../Downloads/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="260.0" layoutY="84.0" text="Welcome to">
+                                 <font>
+                                    <Font name="Georgia" size="30.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="260.0" layoutY="137.0" text="your Superviser Space">
+                                 <font>
+                                    <Font name="Georgia" size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <JFXButton layoutX="598.0" layoutY="10.0" onAction="#logout" prefHeight="17.0" prefWidth="56.0" style="-fx-border-color: #212121;" text="Logout" textFill="#212121" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

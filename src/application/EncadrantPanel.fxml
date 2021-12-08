@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EncadrantPanel">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="605.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <TableView fx:id="table" layoutX="34.0" layoutY="67.0" prefHeight="328.0" prefWidth="423.0">
+              <columns>
+                  <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nom" prefWidth="75.0" text="Last Name" />
+                <TableColumn fx:id="prènom" prefWidth="128.0" text="First Name" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <Label layoutX="213.0" layoutY="8.0" prefHeight="33.0" prefWidth="180.0" text="Choose a superviser" textFill="#4e4e50">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Line endX="235.0" layoutX="152.0" layoutY="41.0" startX="61.0" stroke="#4e4e50" />
+            <JFXButton fx:id="closeButton" layoutX="478.0" layoutY="141.0" onAction="#updateStudents" prefHeight="33.0" prefWidth="102.0" style="-fx-background-color: F3D250;" text="Submit" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Light" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="478.0" layoutY="93.0" onAction="#Push" prefHeight="33.0" prefWidth="102.0" style="-fx-background-color: F3D250;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Light" size="15.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="605.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.History">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="605.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <Label layoutX="14.0" layoutY="8.0" prefHeight="33.0" prefWidth="258.0" text="Select a group to view meeting history" textFill="#4e4e50">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TableView fx:id="table" layoutX="90.0" layoutY="77.0" onMouseClicked="#show" prefHeight="269.0" prefWidth="424.0">
+               <columns>
+                  <TableColumn fx:id="group" prefWidth="75.0" text="Groups" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <JFXButton layoutX="240.0" layoutY="358.0" onAction="#add" prefHeight="40.0" prefWidth="106.0" style="-fx-background-color: F3D250;" text="Submit" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Light" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

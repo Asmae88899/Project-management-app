@@ -1,0 +1,186 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.text-input {
+    -fx-text-fill:  #4e4e50;
+    -fx-font-size: 15;
+    -fx-font-family: 'Roboto Medium';
+    
+    }
+    
+    .text-input1 {
+    -fx-text-fill:  #000000;
+    -fx-font-size: 17;
+    -fx-font-family: 'Roboto Light';
+    
+    }
+
+
+
+
+
+.button2{     
+  -fx-background-color:  #4E4E50;
+  
+}
+
+.button2:hover{     
+  -fx-background-color: #757575;
+  
+}
+
+.buttone{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #FFEB3B;
+  -fx-background-radius:22;
+  -fx-font-size:19;
+  -fx-text-fill:#272727;
+  -fx-font-family: 'Roboto Medium';
+  
+}
+
+.buttone:hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #FFF9C4;
+  -fx-background-radius:22;
+  -fx-font-size:19;
+  -fx-text-fill:#272727;
+  -fx-font-family: 'Roboto Medium';
+  
+}
+
+.buttone1:hover{     
+  -fx-background-color: transparent;
+  -fx-text-fill:#9E9E9E;
+  
+  
+}
+.button1:focused {
+    -fx-background-color: transparent; 
+    
+    }
+
+.buttone2 {    
+  -fx-background-veight:bold;
+  -fx-background-color:  transparent;
+  -fx-font-size:19;
+  -fx-text-fill:#455A64;
+  -fx-font-family: 'Ebrima';
+  -fx-border-color:#455A64;
+
+  -fx-border-vidth:3;
+  
+  
+}
+
+.buttone2:hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:  transparent;
+
+  -fx-font-size:19;
+  -fx-text-fill:#607D8B;
+  -fx-font-family: 'Ebrima';
+  -fx-border-color:#607D8B;
+
+  -fx-border-vidth:3;
+  
+}
+
+
+
+
+.buttone3 {    
+  -fx-background-veight:bold;
+  -fx-background-color:  transparent;
+  -fx-background-radius:22;
+  -fx-font-size:17;
+  -fx-text-fill:#455A64;
+  -fx-font-family: 'Roboto Medium';
+  -fx-border-color:#455A64;
+  -fx-border-radius: 20;
+  -fx-border-vidth:3;
+  
+  
+}
+
+.buttone3:hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #F5F5F5;
+-fx-background-radius:22;
+  -fx-font-size:17;
+  -fx-text-fill:#607D8B;
+  -fx-font-family: 'Roboto Medium';
+  -fx-border-color:#607D8B;
+  -fx-border-radius: 20;
+  -fx-border-vidth:3;
+  
+}
+
+
+.buttone4{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #FFEB3B;
+  
+  -fx-font-size:22;
+  -fx-text-fill:#4E4E50;
+  -fx-font-family: 'Roboto Light';
+  
+}
+
+.buttone4:hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:   #ffef77;
+  
+  -fx-font-size:22;
+  -fx-text-fill:#4E4E50;
+  -fx-font-family: 'Roboto Light';
+  
+}
+.buttone5{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #4E4E50;
+  
+  -fx-font-size:22;
+  -fx-text-fill:#FFEB3B  ;
+  -fx-font-family: 'Roboto Light';
+  
+}
+
+.buttone5:hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:   #757575;
+  
+  -fx-font-size:22;
+  -fx-text-fill:#FFEB3B ;
+  -fx-font-family: 'Roboto Light';
+  
+}
+
+
+.buttone6{    
+  -fx-background-veight:bold;
+  -fx-background-color:  transparent;
+  -fx-background-radius:22;
+  -fx-font-size:17;
+  -fx-text-fill:#FFEB3B;
+  -fx-font-family: 'Roboto Medium';
+  -fx-border-color:#FFEB3B;
+  -fx-border-radius: 20;
+  -fx-border-vidth:3;
+  
+  
+}
+
+.buttone6 :hover{     
+  -fx-background-veight:bold;
+  -fx-background-color:  #ffef77;
+-fx-background-radius:22;
+  -fx-font-size:17;
+  -fx-text-fill:#FFEB3B;
+  -fx-font-family: 'Roboto Medium';
+  -fx-border-color:#FFEB3B;
+  -fx-border-radius: 20;
+  -fx-border-vidth:3;
+  
+}
+
+

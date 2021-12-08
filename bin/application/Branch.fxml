@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="877.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Buttons">
+   <children>
+      <AnchorPane fx:id="pane1" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="877.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <AnchorPane prefHeight="600.0" prefWidth="209.0" style="-fx-background-color: #4E4E50;">
+               <children>
+                  <Label layoutX="25.0" layoutY="40.0" text="Branch Head" textFill="#212121">
+                     <font>
+                        <Font name="Ebrima" size="26.0" />
+                     </font>
+                  </Label>
+                  <Line endX="75.0" layoutX="107.0" layoutY="123.0" startX="-78.0" />
+                  <JFXButton layoutX="-2.0" layoutY="193.0" onAction="#ProjetView" prefHeight="40.0" prefWidth="210.0" styleClass="button2" stylesheets="@application.css" text="Projects" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutY="233.0" onAction="#viewStudents" prefHeight="40.0" prefWidth="210.0" styleClass="button2" stylesheets="@application.css" text="View Students" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutY="273.0" onAction="#updateDeleteStudents" prefHeight="40.0" prefWidth="210.0" styleClass="button2" stylesheets="@application.css" text="View Supervisers" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="1.0" layoutY="153.0" onAction="#home" prefHeight="40.0" prefWidth="209.0" text="Home" textFill="#ffeb3b">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <Label layoutX="74.0" layoutY="78.0" text="Panel" textFill="#212121">
+                     <font>
+                        <Font name="Ebrima" size="26.0" />
+                     </font>
+                  </Label>
+                  <Line endX="91.0" layoutX="109.0" layoutY="493.0" startX="-100.0" />
+               </children>
+            </AnchorPane>
+            <Pane layoutX="210.0" layoutY="-1.0" prefHeight="600.0" prefWidth="667.0">
+               <children>
+                  <Label fx:id="label2" layoutX="338.0" layoutY="6.0" text="Label" textFill="WHITE" />
+                  <Label fx:id="label1" layoutX="249.0" layoutY="6.0" text="Label" textFill="WHITE" />
+                  <AnchorPane fx:id="mainPane" layoutY="43.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="667.0">
+                     <children>
+                        <ImageView fitHeight="594.0" fitWidth="744.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/georgie-cobbs-muOHbrFGEQY-unsplash.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="241.0" layoutY="68.0" text="Welcome to">
+                           <font>
+                              <Font name="Georgia" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="241.0" layoutY="123.0" text="your Branch Head Space">
+                           <font>
+                              <Font name="Georgia" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <JFXButton layoutX="598.0" layoutY="10.0" onAction="#logout" prefHeight="17.0" prefWidth="56.0" style="-fx-border-color: #212121;" text="Logout" textFill="#212121" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

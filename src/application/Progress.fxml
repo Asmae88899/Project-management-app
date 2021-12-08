@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="668.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Progress">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="668.0" style="-fx-background-color: FFFFFF;">
+         <children>
+            <HBox layoutX="20.0" prefHeight="44.0" prefWidth="629.0" style="-fx-background-color: F3D250;">
+               <children>
+                  <JFXButton onAction="#task" prefHeight="67.0" prefWidth="121.0" text="Tasks" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="10.0" layoutY="10.0" onAction="#chart" prefHeight="64.0" prefWidth="122.0" text="Charts" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <AnchorPane fx:id="mainPane" layoutX="20.0" layoutY="44.0" prefHeight="503.0" prefWidth="629.0" style="-fx-background-color: ffffff;">
+               <effect>
+                  <DropShadow color="#c9c7c7" />
+               </effect></AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

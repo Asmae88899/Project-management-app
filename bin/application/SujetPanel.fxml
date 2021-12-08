@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SujetPanel">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="556.0" prefWidth="665.0" style="-fx-background-color: #f5f5f5; -fx-border-color: #f5f5f5;">
+         <children>
+            <Pane layoutY="7.0" prefHeight="549.0" prefWidth="348.0" style="-fx-background-color: FFFFFF; -fx-border-color: #f5f5f5;">
+               <children>
+                  <TableView fx:id="table" layoutY="57.0" onMouseClicked="#show" prefHeight="492.0" prefWidth="348.0">
+                    <columns>
+                      <TableColumn fx:id="nom" prefWidth="75.0" text="Theme" />
+                      <TableColumn fx:id="document" prefWidth="66.0" text="Technologies" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <JFXButton layoutX="7.0" layoutY="8.0" onAction="#add" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: F3D250;" text="Add" textFill="WHITE">
+                     <font>
+                        <Font name="Ebrima" size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="88.0" layoutY="8.0" onAction="#refresh" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: F3D250;" text="Refresh" textFill="WHITE">
+                     <font>
+                        <Font name="Ebrima" size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Pane layoutX="355.0" layoutY="7.0" prefHeight="549.0" prefWidth="310.0" style="-fx-border-color: #f5f5f5; -fx-background-color: ffffff;">
+               <children>
+                  <Pane layoutX="8.0" layoutY="57.0" prefHeight="475.0" prefWidth="294.0" style="-fx-background-color: FFFFFF; -fx-border-color: #dadada;">
+                     <children>
+                        <Label layoutX="22.0" layoutY="46.0" text="Description" textFill="#4e4e50">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Line endX="148.0" layoutX="117.0" layoutY="85.0" startX="-94.0" stroke="#4e4e50" />
+                        <Label layoutX="31.0" layoutY="392.0" prefHeight="20.0" prefWidth="56.0" style="-fx-background-color: FFFFFF;" text="Group :" textFill="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </Label>
+                        <JFXTextField fx:id="nom1" layoutX="87.0" layoutY="388.0" prefHeight="25.0" prefWidth="73.0" styleClass="text-input" stylesheets="@application.css" unFocusColor="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="nom2" layoutX="184.0" layoutY="388.0" prefHeight="25.0" prefWidth="73.0" styleClass="text-input" stylesheets="@application.css" unFocusColor="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </JFXTextField>
+                        <Label layoutX="167.0" layoutY="390.0" prefHeight="25.0" prefWidth="7.0" style="-fx-background-color: FFFFFF;" text="," textFill="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="6.0" layoutY="319.0" prefHeight="20.0" prefWidth="106.0" style="-fx-background-color: FFFFFF;" text="Technologies :" textFill="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="23.0" layoutY="142.0" prefHeight="20.0" prefWidth="56.0" style="-fx-background-color: FFFFFF;" text="Theme :" textFill="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </Label>
+                        <JFXTextArea fx:id="theme" layoutX="87.0" layoutY="129.0" prefHeight="46.0" prefWidth="194.0" styleClass="text-input" stylesheets="@application.css" />
+                        <JFXTextArea fx:id="tech" layoutX="109.0" layoutY="306.0" prefHeight="46.0" prefWidth="177.0" styleClass="text-input" stylesheets="@application.css" />
+                        <Label layoutX="7.0" layoutY="218.0" prefHeight="20.0" prefWidth="89.0" style="-fx-background-color: FFFFFF;" text="Description :" textFill="#4e4e50">
+                           <font>
+                              <Font name="Roboto Light" size="15.0" />
+                           </font>
+                        </Label>
+                        <JFXTextArea fx:id="description" layoutX="101.0" layoutY="205.0" prefHeight="77.0" prefWidth="183.0" styleClass="text-input" stylesheets="@application.css" />
+                     </children>
+                  </Pane>
+               </children>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" color="#d3d0d0" />
+               </effect>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

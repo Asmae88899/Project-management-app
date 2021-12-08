@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="668.0" style="-fx-background-color: ffffff;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.EtudReun">
+   <children>
+      <AnchorPane prefHeight="186.0" prefWidth="185.0" />
+      <Label layoutX="59.0" layoutY="113.0" text="Meeting Information" textFill="#4e4e50">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Line endX="419.0" layoutX="154.0" layoutY="166.0" startX="-94.0" stroke="#4e4e50" />
+      <Label layoutX="154.0" layoutY="304.0" prefHeight="20.0" prefWidth="128.0" style="-fx-background-color: #ffffff;" text="My next meeting:">
+         <font>
+            <Font name="Roboto Light" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="292.0" layoutY="304.0" prefHeight="20.0" prefWidth="217.0" text="Label">
+         <font>
+            <Font name="Roboto Medium" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

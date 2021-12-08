@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="668.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="668.0">
+         <children>
+            <ImageView fitHeight="641.0" fitWidth="834.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/joanna-kosinska-1_CMoFsPfso-unsplash.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="306.0" layoutY="153.0" text="Welcome to">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="306.0" layoutY="208.0" text="your Student Space">
+               <font>
+                  <Font name="Georgia" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
